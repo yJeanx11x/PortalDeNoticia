@@ -1,0 +1,24 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+}
+.cabecalho h1 {
+  color: var(--brand-color-light);
+  font-size: 24pt;
+}
+.cabecalho li {
+  color: var(--tex-color-primary);
+  display: flex;
+  place-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.navegacao {
+  display: flex;
+  padding: 14px 32px;
+  justify-content: space-between;
+  color: var(--tex-color-primary);
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
