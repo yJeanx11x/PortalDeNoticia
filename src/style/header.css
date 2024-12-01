@@ -13,7 +13,12 @@
   place-items: center;
   gap: 8px;
   font-size: 16px;
+  cursor:context-menu;
 }
+.cabecalho img{
+  cursor: pointer;
+}
+
 .navegacao {
   display: flex;
   padding: 14px 32px;
@@ -21,4 +26,14 @@
   color: var(--tex-color-primary);
   border-top: 1px solid var(--stroke-color);
   border-bottom: 1px solid var(--stroke-color);
+
+}
+.navegacao li{
+  transition: 0.5s ease;
+
+}
+.navegacao li:hover{
+  color: var(--brand-color-light);
+  transition: 0.5s ease;
+  cursor: pointer;
 }

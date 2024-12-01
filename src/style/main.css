@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  justify-content: center;
+padding-block: 40px;
+}
+
+.noticia {
+  display: flex;
+  gap: 16px;
+}
+.noticia .imgP {
+  width: 608px;
+  height: 416px;
+}
+.noticia img {
+  width: 288px;
+  height: 200px;
+  border-radius: 5px;
+}
+.noticiaSecundaria {
+  width: 592px;
+  height: 416px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
