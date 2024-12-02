@@ -21,3 +21,12 @@ a{
 a:hover{
         color: var(--brand-color-lignt);
 }
+.contener{
+        max-width: 1280px;
+        padding-inline: 32px;
+        margin-inline: auto;
+}
+main{
+        margin-top: 40px;
+        
+}

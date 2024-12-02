@@ -1,13 +1,18 @@
-main {
+/* main {
   display: flex;
   justify-content: center;
 padding-block: 40px;
+}
+
+img{
+  max-width: 100%;
 }
 
 .noticia {
   display: flex;
   gap: 16px;
 }
+
 .noticia .imgP {
   width: 608px;
   height: 416px;
@@ -23,4 +28,21 @@ padding-block: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+} 
+ */
+img{
+  max-width: 100%;
 }
+ .grid{
+  display: grid;
+ }
+ .grid-flow-col{
+  grid-auto-flow: column;
+ }
+
+ .grid-cols-2{
+  grid-template-columns: 1fr 1fr;
+ }
+ .gap-16{
+  gap: 16px;
+ }
