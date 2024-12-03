@@ -3,16 +3,29 @@
                 height: 100%;
                 object-fit: cover;
         }
+        .card img{
+        }
         .card{
                 border-radius: 4px;
                 overflow: hidden;
                 position: relative;
                 &::before{
-                        content: '';
+                        content: "";
                         position: absolute;
                         inset: 0;
-                        top: 50%;
+                        /* top: 50%; */
                         background:linear-gradient(180deg, transparent 0%,#020617 100%);
+                        z-index: 1;
+                        
+                
+                }
+                
+                figcaption{
+                        position: absolute;
+                        bottom: 0;
+                        padding:24px;
+                        z-index: 2;
                 }
         }
+        
 }

@@ -22,3 +22,16 @@
 
 
 }
+.tex-2xl{
+        font:var(--h1);
+}
+.tex-xl{
+        font:var(--h2);
+        color: var(--tex-color-primary);
+}
+.tex-lg{
+        font:var(--h3);
+}
+.tex-sm{
+        font:var(--tex-sm);
+}
